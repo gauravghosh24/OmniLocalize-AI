@@ -1,0 +1,23 @@
+# Python
+/.env
+backend/venv/
+backend/venv-*/
+backend/__pycache__/
+backend/**/*.py[cod]
+backend/.env
+
+# Generated localization files
+backend/app/outputs/text/*.txt
+backend/app/outputs/audio/*.wav
+!backend/app/outputs/text/.gitkeep
+!backend/app/outputs/audio/.gitkeep
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
