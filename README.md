@@ -7,9 +7,6 @@ OmniLocalize AI is a local multilingual text translation engine for Indian and E
 Version 1 translates English text into Hindi, Tamil, French, and German with `facebook/nllb-200-distilled-600M`. It saves each translation as a text file and provides copy and download controls in the dashboard.
 
 Voice generation and text-to-speech are planned for Version 2. TTS services remain in the codebase but are disabled in Version 1: no voice model is loaded, downloaded, or invoked.
-
-No Hugging Face gated-model token is required for Version 1. An `HF_TOKEN` will only be needed if gated TTS models are enabled in a future version.
-
 ## Features
 
 - Local NLLB-200 translation from English to Hindi, Tamil, French, and German
